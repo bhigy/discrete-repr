@@ -1,0 +1,6 @@
+Model,RSA input,ABX input,r
+VS,triplet,triplet,0.9291851200320118
+VS,complete,triplet,0.16102001949603392
+VS,complete,fragments,0.1421992611535152
+SS,triplet,triplet,0.9190310359310457
+SS,complete,triplet,0.9319526802919769

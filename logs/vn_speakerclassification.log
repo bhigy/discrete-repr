@@ -1,0 +1,1279 @@
+INFO:root:Mean pooling; global diagnostic
+INFO:root:Loading speaker data
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 0
+INFO:root:Training for random layer 1 run 0
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.2702702702702703
+INFO:root:Loading activations for trained layer 1 run 0
+INFO:root:Training for trained layer 1 run 0
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.47368421052631576
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 1
+INFO:root:Training for random layer 1 run 1
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.2019914651493599
+INFO:root:Loading activations for trained layer 1 run 1
+INFO:root:Training for trained layer 1 run 1
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.4874348032242769
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 2
+INFO:root:Training for random layer 1 run 2
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.2408724513987672
+INFO:root:Loading activations for trained layer 1 run 2
+INFO:root:Training for trained layer 1 run 2
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.4902797534376482
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 0
+INFO:root:Training for random layer 1 run 0
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.3911806543385491
+INFO:root:Loading activations for trained layer 1 run 0
+INFO:root:Training for trained layer 1 run 0
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.5794215267899478
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 1
+INFO:root:Training for random layer 1 run 1
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.3200568990042674
+INFO:root:Loading activations for trained layer 1 run 1
+INFO:root:Training for trained layer 1 run 1
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.5855855855855856
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 2
+INFO:root:Training for random layer 1 run 2
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.386439070649597
+INFO:root:Loading activations for trained layer 1 run 2
+INFO:root:Training for trained layer 1 run 2
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.5960170697012802
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 0
+INFO:root:Training for random layer 1 run 0
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.5443338074917022
+INFO:root:Loading activations for trained layer 1 run 0
+INFO:root:Training for trained layer 1 run 0
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.6737790422000949
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 1
+INFO:root:Training for random layer 1 run 1
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.5742057847321005
+INFO:root:Loading activations for trained layer 1 run 1
+INFO:root:Training for trained layer 1 run 1
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.7022285443338074
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 2
+INFO:root:Training for random layer 1 run 2
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.5410146989094358
+INFO:root:Loading activations for trained layer 1 run 2
+INFO:root:Training for trained layer 1 run 2
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.6955903271692745
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 0
+INFO:root:Training for random layer 1 run 0
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.6173541963015647
+INFO:root:Loading activations for trained layer 1 run 0
+INFO:root:Training for trained layer 1 run 0
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.7392128971076339
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 1
+INFO:root:Training for random layer 1 run 1
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.6434329065908013
+INFO:root:Loading activations for trained layer 1 run 1
+INFO:root:Training for trained layer 1 run 1
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.7472735893788526
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 2
+INFO:root:Training for random layer 1 run 2
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.6311047889995258
+INFO:root:Loading activations for trained layer 1 run 2
+INFO:root:Training for trained layer 1 run 2
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.752963489805595
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 0
+INFO:root:Training for random layer 1 run 0
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.7060218112849692
+INFO:root:Loading activations for trained layer 1 run 0
+INFO:root:Training for trained layer 1 run 0
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.7989568515884305
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 1
+INFO:root:Training for random layer 1 run 1
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.7003319108582267
+INFO:root:Loading activations for trained layer 1 run 1
+INFO:root:Training for trained layer 1 run 1
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.7885253674727359
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 2
+INFO:root:Training for random layer 1 run 2
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.7008060692271219
+INFO:root:Loading activations for trained layer 1 run 2
+INFO:root:Training for trained layer 1 run 2
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.7894736842105263
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 0
+INFO:root:Training for random layer 1 run 0
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.7591275486012328
+INFO:root:Loading activations for trained layer 1 run 0
+INFO:root:Training for trained layer 1 run 0
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8117591275486012
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 1
+INFO:root:Training for random layer 1 run 1
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.7387387387387387
+INFO:root:Loading activations for trained layer 1 run 1
+INFO:root:Training for trained layer 1 run 1
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8169748696064486
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 2
+INFO:root:Training for random layer 1 run 2
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.7349454717875771
+INFO:root:Loading activations for trained layer 1 run 2
+INFO:root:Training for trained layer 1 run 2
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8150782361308677
+INFO:numexpr.utils:Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+DEBUG:matplotlib.font_manager:findfont: Matching serif:style=normal:variant=normal:weight=normal:stretch=normal:size=16.0.
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymBol.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeFiveSym' (STIXSizFiveSymReg.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymReg.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBol.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-BoldItalic.ttf) italic normal bold normal>) = 1.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-BoldOblique.ttf) oblique normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'cmsy10' (cmsy10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans Display' (DejaVuSansDisplay.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Oblique.ttf) oblique normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXGeneral' (STIXGeneralBolIta.ttf) italic normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymReg.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'cmex10' (cmex10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymReg.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 0.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymBol.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal bold normal>) = 0.33499999999999996
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'cmr10' (cmr10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'cmmi10' (cmmi10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXGeneral' (STIXGeneralItalic.ttf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymBol.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'cmss10' (cmss10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'cmtt10' (cmtt10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXGeneral' (STIXGeneralBol.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXGeneral' (STIXGeneral.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXNonUnicode' (STIXNonUniIta.ttf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Italic.ttf) italic normal 400 normal>) = 1.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Serif Display' (DejaVuSerifDisplay.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'cmb10' (cmb10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans' (DejaVuSans-BoldOblique.ttf) oblique normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXNonUnicode' (STIXNonUni.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymReg.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymBol.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBolIta.ttf) italic normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_SansSerif' (MathJax_SansSerif-Italic.otf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Bold.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Fraktur' (MathJax_Fraktur-Bold.otf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'FontAwesome' (FontAwesome.otf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_SansSerif' (MathJax_SansSerif-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Math' (MathJax_Math-Italic.otf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Italic.ttf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-BlackItalic.ttf) italic normal black normal>) = 11.525
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Size2' (MathJax_Size2-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Typewriter' (MathJax_Typewriter-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Math' (MathJax_Math-BoldItalic.otf) italic normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Light.ttf) normal normal light normal>) = 10.24
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_AMS' (MathJax_AMS-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'msbm10' (msbm10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'esint10' (esint10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Sans Mono' (VeraMoIt.ttf) oblique normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_WinIE6' (MathJax_WinIE6-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Caligraphic' (MathJax_Caligraphic-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Sans Mono' (VeraMoBd.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Vector-Bold' (MathJax_Vector-Bold.otf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-HeavyItalic.ttf) italic normal heavy normal>) = 11.43
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Sans' (VeraBI.ttf) oblique normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-LightItalic.ttf) italic normal light normal>) = 11.24
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Sans Mono' (VeraMoBI.ttf) oblique normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Serif' (VeraSeBd.ttf) normal normal bold normal>) = 1.0492857142857142
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Main' (MathJax_Main-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Size4' (MathJax_Size4-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Size3' (MathJax_Size3-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_WinChrome' (MathJax_WinChrome-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Sans' (VeraIt.ttf) oblique normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'FontAwesome' (fontawesome-webfont.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Size1' (MathJax_Size1-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Main' (MathJax_Main-Bold.otf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-BoldItalic.ttf) italic normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Vector' (MathJax_Vector-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_SansSerif' (MathJax_SansSerif-Bold.otf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Fraktur' (MathJax_Fraktur-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Black.ttf) normal normal black normal>) = 10.525
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-ThinItalic.ttf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'msam10' (msam10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Sans' (Vera.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'wasy10' (wasy10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Main' (MathJax_Main-Italic.otf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Medium.ttf) normal normal medium normal>) = 10.145
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Math' (MathJax_Math-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-MediumItalic.ttf) italic normal medium normal>) = 11.145
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Thin.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Caligraphic' (MathJax_Caligraphic-Bold.otf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Heavy.ttf) normal normal heavy normal>) = 10.43
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'stmary10' (stmary10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'rsfs10' (rsfs10.ttf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Script' (MathJax_Script-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Regular.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'eufm10' (eufm10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Hairline.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Sans' (VeraBd.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Sans Mono' (VeraMono.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Serif' (VeraSe.ttf) normal normal 400 normal>) = 0.7642857142857142
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-HairlineItalic.ttf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Semibold.ttf) normal normal semibold normal>) = 10.24
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-SemiboldItalic.ttf) italic normal semibold normal>) = 11.24
+DEBUG:matplotlib.font_manager:findfont: Matching serif:style=normal:variant=normal:weight=normal:stretch=normal:size=16.0 to DejaVu Serif ('/roaming/gchrupal/verdigris/platalea.vq/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf') with score of 0.050000.
+DEBUG:matplotlib.backends.backend_pdf:Assigning font /b'F1' = '/roaming/gchrupal/verdigris/platalea.vq/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf'
+DEBUG:matplotlib.backends.backend_pdf:Embedding font /roaming/gchrupal/verdigris/platalea.vq/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf.
+DEBUG:matplotlib.backends.backend_pdf:Writing TrueType font.
+INFO:root:Mean pooling; global diagnostic
+INFO:root:Loading speaker data
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 0
+INFO:root:Training for random layer 1 run 0
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.2702702702702703
+INFO:root:Loading activations for trained layer 1 run 0
+INFO:root:Training for trained layer 1 run 0
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.47368421052631576
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 1
+INFO:root:Training for random layer 1 run 1
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.2019914651493599
+INFO:root:Loading activations for trained layer 1 run 1
+INFO:root:Training for trained layer 1 run 1
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.4874348032242769
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 2
+INFO:root:Training for random layer 1 run 2
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.2408724513987672
+INFO:root:Loading activations for trained layer 1 run 2
+INFO:root:Training for trained layer 1 run 2
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.4902797534376482
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 0
+INFO:root:Training for random layer 1 run 0
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.3911806543385491
+INFO:root:Loading activations for trained layer 1 run 0
+INFO:root:Training for trained layer 1 run 0
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.5794215267899478
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 1
+INFO:root:Training for random layer 1 run 1
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.3200568990042674
+INFO:root:Loading activations for trained layer 1 run 1
+INFO:root:Training for trained layer 1 run 1
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.5855855855855856
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 2
+INFO:root:Training for random layer 1 run 2
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.386439070649597
+INFO:root:Loading activations for trained layer 1 run 2
+INFO:root:Training for trained layer 1 run 2
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.5960170697012802
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 0
+INFO:root:Training for random layer 1 run 0
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.5443338074917022
+INFO:root:Loading activations for trained layer 1 run 0
+INFO:root:Training for trained layer 1 run 0
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.6737790422000949
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 1
+INFO:root:Training for random layer 1 run 1
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.5742057847321005
+INFO:root:Loading activations for trained layer 1 run 1
+INFO:root:Training for trained layer 1 run 1
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.7022285443338074
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 2
+INFO:root:Training for random layer 1 run 2
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.5410146989094358
+INFO:root:Loading activations for trained layer 1 run 2
+INFO:root:Training for trained layer 1 run 2
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.6955903271692745
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 0
+INFO:root:Training for random layer 1 run 0
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.6173541963015647
+INFO:root:Loading activations for trained layer 1 run 0
+INFO:root:Training for trained layer 1 run 0
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.7392128971076339
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 1
+INFO:root:Training for random layer 1 run 1
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.6434329065908013
+INFO:root:Loading activations for trained layer 1 run 1
+INFO:root:Training for trained layer 1 run 1
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.7472735893788526
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 2
+INFO:root:Training for random layer 1 run 2
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.6311047889995258
+INFO:root:Loading activations for trained layer 1 run 2
+INFO:root:Training for trained layer 1 run 2
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.752963489805595
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 0
+INFO:root:Training for random layer 1 run 0
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.7060218112849692
+INFO:root:Loading activations for trained layer 1 run 0
+INFO:root:Training for trained layer 1 run 0
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.7989568515884305
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 1
+INFO:root:Training for random layer 1 run 1
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.7003319108582267
+INFO:root:Loading activations for trained layer 1 run 1
+INFO:root:Training for trained layer 1 run 1
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.7885253674727359
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 2
+INFO:root:Training for random layer 1 run 2
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.7008060692271219
+INFO:root:Loading activations for trained layer 1 run 2
+INFO:root:Training for trained layer 1 run 2
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.7894736842105263
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 0
+INFO:root:Training for random layer 1 run 0
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.7591275486012328
+INFO:root:Loading activations for trained layer 1 run 0
+INFO:root:Training for trained layer 1 run 0
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8117591275486012
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 1
+INFO:root:Training for random layer 1 run 1
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:numexpr.utils:Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+DEBUG:matplotlib.font_manager:findfont: Matching serif:style=normal:variant=normal:weight=normal:stretch=normal:size=16.0.
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymBol.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeFiveSym' (STIXSizFiveSymReg.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymReg.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBol.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-BoldItalic.ttf) italic normal bold normal>) = 1.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-BoldOblique.ttf) oblique normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'cmsy10' (cmsy10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans Display' (DejaVuSansDisplay.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Oblique.ttf) oblique normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXGeneral' (STIXGeneralBolIta.ttf) italic normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymReg.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'cmex10' (cmex10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymReg.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 0.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymBol.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal bold normal>) = 0.33499999999999996
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'cmr10' (cmr10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'cmmi10' (cmmi10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXGeneral' (STIXGeneralItalic.ttf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymBol.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'cmss10' (cmss10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'cmtt10' (cmtt10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXGeneral' (STIXGeneralBol.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXGeneral' (STIXGeneral.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXNonUnicode' (STIXNonUniIta.ttf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Italic.ttf) italic normal 400 normal>) = 1.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Serif Display' (DejaVuSerifDisplay.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'cmb10' (cmb10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans' (DejaVuSans-BoldOblique.ttf) oblique normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXNonUnicode' (STIXNonUni.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymReg.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymBol.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBolIta.ttf) italic normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_SansSerif' (MathJax_SansSerif-Italic.otf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Bold.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Fraktur' (MathJax_Fraktur-Bold.otf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'FontAwesome' (FontAwesome.otf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_SansSerif' (MathJax_SansSerif-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Math' (MathJax_Math-Italic.otf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Italic.ttf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-BlackItalic.ttf) italic normal black normal>) = 11.525
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Size2' (MathJax_Size2-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Typewriter' (MathJax_Typewriter-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Math' (MathJax_Math-BoldItalic.otf) italic normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Light.ttf) normal normal light normal>) = 10.24
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_AMS' (MathJax_AMS-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'msbm10' (msbm10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'esint10' (esint10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Sans Mono' (VeraMoIt.ttf) oblique normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_WinIE6' (MathJax_WinIE6-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Caligraphic' (MathJax_Caligraphic-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Sans Mono' (VeraMoBd.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Vector-Bold' (MathJax_Vector-Bold.otf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-HeavyItalic.ttf) italic normal heavy normal>) = 11.43
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Sans' (VeraBI.ttf) oblique normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-LightItalic.ttf) italic normal light normal>) = 11.24
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Sans Mono' (VeraMoBI.ttf) oblique normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Serif' (VeraSeBd.ttf) normal normal bold normal>) = 1.0492857142857142
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Main' (MathJax_Main-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Size4' (MathJax_Size4-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Size3' (MathJax_Size3-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_WinChrome' (MathJax_WinChrome-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Sans' (VeraIt.ttf) oblique normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'FontAwesome' (fontawesome-webfont.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Size1' (MathJax_Size1-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Main' (MathJax_Main-Bold.otf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-BoldItalic.ttf) italic normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Vector' (MathJax_Vector-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_SansSerif' (MathJax_SansSerif-Bold.otf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Fraktur' (MathJax_Fraktur-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Black.ttf) normal normal black normal>) = 10.525
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-ThinItalic.ttf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'msam10' (msam10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Sans' (Vera.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'wasy10' (wasy10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Main' (MathJax_Main-Italic.otf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Medium.ttf) normal normal medium normal>) = 10.145
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Math' (MathJax_Math-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-MediumItalic.ttf) italic normal medium normal>) = 11.145
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Thin.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Caligraphic' (MathJax_Caligraphic-Bold.otf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Heavy.ttf) normal normal heavy normal>) = 10.43
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'stmary10' (stmary10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'rsfs10' (rsfs10.ttf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Script' (MathJax_Script-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Regular.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'eufm10' (eufm10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Hairline.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Sans' (VeraBd.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Sans Mono' (VeraMono.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Serif' (VeraSe.ttf) normal normal 400 normal>) = 0.7642857142857142
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-HairlineItalic.ttf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Semibold.ttf) normal normal semibold normal>) = 10.24
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-SemiboldItalic.ttf) italic normal semibold normal>) = 11.24
+DEBUG:matplotlib.font_manager:findfont: Matching serif:style=normal:variant=normal:weight=normal:stretch=normal:size=16.0 to DejaVu Serif ('/roaming/gchrupal/verdigris/platalea.vq/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf') with score of 0.050000.
+DEBUG:matplotlib.backends.backend_pdf:Assigning font /b'F1' = '/roaming/gchrupal/verdigris/platalea.vq/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf'
+DEBUG:matplotlib.backends.backend_pdf:Embedding font /roaming/gchrupal/verdigris/platalea.vq/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf.
+DEBUG:matplotlib.backends.backend_pdf:Writing TrueType font.
+INFO:numexpr.utils:Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+DEBUG:matplotlib.font_manager:findfont: Matching serif:style=normal:variant=normal:weight=normal:stretch=normal:size=16.0.
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymBol.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeFiveSym' (STIXSizFiveSymReg.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymReg.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBol.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-BoldItalic.ttf) italic normal bold normal>) = 1.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-BoldOblique.ttf) oblique normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'cmsy10' (cmsy10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans Display' (DejaVuSansDisplay.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Oblique.ttf) oblique normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXGeneral' (STIXGeneralBolIta.ttf) italic normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymReg.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'cmex10' (cmex10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymReg.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 0.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymBol.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal bold normal>) = 0.33499999999999996
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'cmr10' (cmr10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'cmmi10' (cmmi10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXGeneral' (STIXGeneralItalic.ttf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymBol.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'cmss10' (cmss10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'cmtt10' (cmtt10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXGeneral' (STIXGeneralBol.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXGeneral' (STIXGeneral.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXNonUnicode' (STIXNonUniIta.ttf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Italic.ttf) italic normal 400 normal>) = 1.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Serif Display' (DejaVuSerifDisplay.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'cmb10' (cmb10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans' (DejaVuSans-BoldOblique.ttf) oblique normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXNonUnicode' (STIXNonUni.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymReg.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymBol.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBolIta.ttf) italic normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_SansSerif' (MathJax_SansSerif-Italic.otf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Bold.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Fraktur' (MathJax_Fraktur-Bold.otf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'FontAwesome' (FontAwesome.otf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_SansSerif' (MathJax_SansSerif-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Math' (MathJax_Math-Italic.otf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Italic.ttf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-BlackItalic.ttf) italic normal black normal>) = 11.525
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Size2' (MathJax_Size2-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Typewriter' (MathJax_Typewriter-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Math' (MathJax_Math-BoldItalic.otf) italic normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Light.ttf) normal normal light normal>) = 10.24
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_AMS' (MathJax_AMS-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'msbm10' (msbm10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'esint10' (esint10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Sans Mono' (VeraMoIt.ttf) oblique normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_WinIE6' (MathJax_WinIE6-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Caligraphic' (MathJax_Caligraphic-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Sans Mono' (VeraMoBd.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Vector-Bold' (MathJax_Vector-Bold.otf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-HeavyItalic.ttf) italic normal heavy normal>) = 11.43
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Sans' (VeraBI.ttf) oblique normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-LightItalic.ttf) italic normal light normal>) = 11.24
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Sans Mono' (VeraMoBI.ttf) oblique normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Serif' (VeraSeBd.ttf) normal normal bold normal>) = 1.0492857142857142
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Main' (MathJax_Main-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Size4' (MathJax_Size4-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Size3' (MathJax_Size3-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_WinChrome' (MathJax_WinChrome-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Sans' (VeraIt.ttf) oblique normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'FontAwesome' (fontawesome-webfont.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Size1' (MathJax_Size1-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Main' (MathJax_Main-Bold.otf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-BoldItalic.ttf) italic normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Vector' (MathJax_Vector-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_SansSerif' (MathJax_SansSerif-Bold.otf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Fraktur' (MathJax_Fraktur-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Black.ttf) normal normal black normal>) = 10.525
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-ThinItalic.ttf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'msam10' (msam10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Sans' (Vera.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'wasy10' (wasy10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Main' (MathJax_Main-Italic.otf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Medium.ttf) normal normal medium normal>) = 10.145
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Math' (MathJax_Math-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-MediumItalic.ttf) italic normal medium normal>) = 11.145
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Thin.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Caligraphic' (MathJax_Caligraphic-Bold.otf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Heavy.ttf) normal normal heavy normal>) = 10.43
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'stmary10' (stmary10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'rsfs10' (rsfs10.ttf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Script' (MathJax_Script-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Regular.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'eufm10' (eufm10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Hairline.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Sans' (VeraBd.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Sans Mono' (VeraMono.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Serif' (VeraSe.ttf) normal normal 400 normal>) = 0.7642857142857142
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-HairlineItalic.ttf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Semibold.ttf) normal normal semibold normal>) = 10.24
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-SemiboldItalic.ttf) italic normal semibold normal>) = 11.24
+DEBUG:matplotlib.font_manager:findfont: Matching serif:style=normal:variant=normal:weight=normal:stretch=normal:size=16.0 to DejaVu Serif ('/roaming/gchrupal/verdigris/platalea.vq/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf') with score of 0.050000.
+DEBUG:matplotlib.backends.backend_pdf:Assigning font /b'F1' = '/roaming/gchrupal/verdigris/platalea.vq/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf'
+DEBUG:matplotlib.backends.backend_pdf:Embedding font /roaming/gchrupal/verdigris/platalea.vq/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf.
+DEBUG:matplotlib.backends.backend_pdf:Writing TrueType font.
+DEBUG:matplotlib.backends.backend_pdf:Assigning font /b'F1' = '/roaming/gchrupal/verdigris/platalea.vq/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf'
+DEBUG:matplotlib.backends.backend_pdf:Embedding font /roaming/gchrupal/verdigris/platalea.vq/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf.
+DEBUG:matplotlib.backends.backend_pdf:Writing TrueType font.
+INFO:numexpr.utils:Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+DEBUG:matplotlib.font_manager:findfont: Matching serif:style=normal:variant=normal:weight=normal:stretch=normal:size=16.0.
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymBol.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeFiveSym' (STIXSizFiveSymReg.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymReg.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBol.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-BoldItalic.ttf) italic normal bold normal>) = 1.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-BoldOblique.ttf) oblique normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'cmsy10' (cmsy10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans Display' (DejaVuSansDisplay.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Oblique.ttf) oblique normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXGeneral' (STIXGeneralBolIta.ttf) italic normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymReg.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'cmex10' (cmex10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymReg.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 0.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymBol.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal bold normal>) = 0.33499999999999996
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'cmr10' (cmr10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'cmmi10' (cmmi10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXGeneral' (STIXGeneralItalic.ttf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymBol.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'cmss10' (cmss10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'cmtt10' (cmtt10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXGeneral' (STIXGeneralBol.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXGeneral' (STIXGeneral.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXNonUnicode' (STIXNonUniIta.ttf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Italic.ttf) italic normal 400 normal>) = 1.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Serif Display' (DejaVuSerifDisplay.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'cmb10' (cmb10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans' (DejaVuSans-BoldOblique.ttf) oblique normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXNonUnicode' (STIXNonUni.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymReg.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymBol.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBolIta.ttf) italic normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_SansSerif' (MathJax_SansSerif-Italic.otf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Bold.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Fraktur' (MathJax_Fraktur-Bold.otf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'FontAwesome' (FontAwesome.otf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_SansSerif' (MathJax_SansSerif-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Math' (MathJax_Math-Italic.otf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Italic.ttf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-BlackItalic.ttf) italic normal black normal>) = 11.525
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Size2' (MathJax_Size2-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Typewriter' (MathJax_Typewriter-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Math' (MathJax_Math-BoldItalic.otf) italic normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Light.ttf) normal normal light normal>) = 10.24
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_AMS' (MathJax_AMS-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'msbm10' (msbm10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'esint10' (esint10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Sans Mono' (VeraMoIt.ttf) oblique normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_WinIE6' (MathJax_WinIE6-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Caligraphic' (MathJax_Caligraphic-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Sans Mono' (VeraMoBd.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Vector-Bold' (MathJax_Vector-Bold.otf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-HeavyItalic.ttf) italic normal heavy normal>) = 11.43
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Sans' (VeraBI.ttf) oblique normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-LightItalic.ttf) italic normal light normal>) = 11.24
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Sans Mono' (VeraMoBI.ttf) oblique normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Serif' (VeraSeBd.ttf) normal normal bold normal>) = 1.0492857142857142
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Main' (MathJax_Main-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Size4' (MathJax_Size4-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Size3' (MathJax_Size3-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_WinChrome' (MathJax_WinChrome-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Sans' (VeraIt.ttf) oblique normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'FontAwesome' (fontawesome-webfont.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Size1' (MathJax_Size1-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Main' (MathJax_Main-Bold.otf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-BoldItalic.ttf) italic normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Vector' (MathJax_Vector-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_SansSerif' (MathJax_SansSerif-Bold.otf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Fraktur' (MathJax_Fraktur-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Black.ttf) normal normal black normal>) = 10.525
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-ThinItalic.ttf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'msam10' (msam10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Sans' (Vera.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'wasy10' (wasy10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Main' (MathJax_Main-Italic.otf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Medium.ttf) normal normal medium normal>) = 10.145
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Math' (MathJax_Math-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-MediumItalic.ttf) italic normal medium normal>) = 11.145
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Thin.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Caligraphic' (MathJax_Caligraphic-Bold.otf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Heavy.ttf) normal normal heavy normal>) = 10.43
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'stmary10' (stmary10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'rsfs10' (rsfs10.ttf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Script' (MathJax_Script-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Regular.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'eufm10' (eufm10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Hairline.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Sans' (VeraBd.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Sans Mono' (VeraMono.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Serif' (VeraSe.ttf) normal normal 400 normal>) = 0.7642857142857142
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-HairlineItalic.ttf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Semibold.ttf) normal normal semibold normal>) = 10.24
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-SemiboldItalic.ttf) italic normal semibold normal>) = 11.24
+DEBUG:matplotlib.font_manager:findfont: Matching serif:style=normal:variant=normal:weight=normal:stretch=normal:size=16.0 to DejaVu Serif ('/roaming/gchrupal/verdigris/platalea.vq/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf') with score of 0.050000.
+DEBUG:matplotlib.backends.backend_pdf:Assigning font /b'F1' = '/roaming/gchrupal/verdigris/platalea.vq/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf'
+DEBUG:matplotlib.backends.backend_pdf:Embedding font /roaming/gchrupal/verdigris/platalea.vq/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf.
+DEBUG:matplotlib.backends.backend_pdf:Writing TrueType font.
+DEBUG:matplotlib.backends.backend_pdf:Assigning font /b'F1' = '/roaming/gchrupal/verdigris/platalea.vq/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf'
+DEBUG:matplotlib.backends.backend_pdf:Embedding font /roaming/gchrupal/verdigris/platalea.vq/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf.
+DEBUG:matplotlib.backends.backend_pdf:Writing TrueType font.
+INFO:root:Mean pooling; global diagnostic
+INFO:root:Loading speaker data
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 0
+INFO:root:Training for random layer 1 run 0
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.10384068278805121
+INFO:root:Loading activations for trained layer 1 run 0
+INFO:root:Training for trained layer 1 run 0
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.5841631104788999
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 1
+INFO:root:Training for random layer 1 run 1
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.13181602655286867
+INFO:root:Loading activations for trained layer 1 run 1
+INFO:root:Training for trained layer 1 run 1
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.5803698435277382
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 2
+INFO:root:Training for random layer 1 run 2
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.07728781412991939
+INFO:root:Loading activations for trained layer 1 run 2
+INFO:root:Training for trained layer 1 run 2
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.5969653864390706
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 0
+INFO:root:Training for random layer 1 run 0
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.07728781412991939
+INFO:root:Loading activations for trained layer 1 run 0
+INFO:root:Training for trained layer 1 run 0
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.6581318160265529
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 1
+INFO:root:Training for random layer 1 run 1
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.07728781412991939
+INFO:root:Loading activations for trained layer 1 run 1
+INFO:root:Training for trained layer 1 run 1
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.6974869606448554
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 2
+INFO:root:Training for random layer 1 run 2
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.0948316737790422
+INFO:root:Loading activations for trained layer 1 run 2
+INFO:root:Training for trained layer 1 run 2
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.6557610241820768
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 0
+INFO:root:Training for random layer 1 run 0
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.07728781412991939
+INFO:root:Loading activations for trained layer 1 run 0
+INFO:root:Training for trained layer 1 run 0
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.7354196301564723
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 1
+INFO:root:Training for random layer 1 run 1
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.07728781412991939
+INFO:root:Loading activations for trained layer 1 run 1
+INFO:root:Training for trained layer 1 run 1
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.7188240872451399
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 2
+INFO:root:Training for random layer 1 run 2
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.1503082029397819
+INFO:root:Loading activations for trained layer 1 run 2
+INFO:root:Training for trained layer 1 run 2
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.7515410146989094
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 0
+INFO:root:Training for random layer 1 run 0
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.13039355144618303
+INFO:root:Loading activations for trained layer 1 run 0
+INFO:root:Training for trained layer 1 run 0
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.7638691322901849
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 1
+INFO:root:Training for random layer 1 run 1
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.12091038406827881
+INFO:root:Loading activations for trained layer 1 run 1
+INFO:root:Training for trained layer 1 run 1
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.7823613086770982
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 2
+INFO:root:Training for random layer 1 run 2
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.23470839260312945
+INFO:root:Loading activations for trained layer 1 run 2
+INFO:root:Training for trained layer 1 run 2
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.7743006164058795
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 0
+INFO:root:Training for random layer 1 run 0
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.13466097676623992
+INFO:root:Loading activations for trained layer 1 run 0
+INFO:root:Training for trained layer 1 run 0
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.7951635846372689
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 1
+INFO:root:Training for random layer 1 run 1
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.13134186818397345
+INFO:root:Loading activations for trained layer 1 run 1
+INFO:root:Training for trained layer 1 run 1
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.7852062588904695
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 2
+INFO:root:Training for random layer 1 run 2
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.1389284020862968
+INFO:root:Loading activations for trained layer 1 run 2
+INFO:root:Training for trained layer 1 run 2
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.7847321005215742
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 0
+INFO:root:Training for random layer 1 run 0
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.07728781412991939
+INFO:root:Loading activations for trained layer 1 run 0
+INFO:root:Training for trained layer 1 run 0
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.7814129919393077
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 1
+INFO:root:Training for random layer 1 run 1
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.07728781412991939
+INFO:root:Loading activations for trained layer 1 run 1
+INFO:root:Training for trained layer 1 run 1
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8174490279753438
+INFO:root:Loading data
+INFO:root:Training for MFCC features
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.8568041725936463
+INFO:root:Loading activations for random layer 1 run 2
+INFO:root:Training for random layer 1 run 2
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.07728781412991939
+INFO:root:Loading activations for trained layer 1 run 2
+INFO:root:Training for trained layer 1 run 2
+INFO:root:Baseline accuracy: 0.07728781412991939
+INFO:root:Maximum accuracy on val: 0.6832622095779991
+INFO:numexpr.utils:Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+DEBUG:matplotlib.font_manager:findfont: Matching serif:style=normal:variant=normal:weight=normal:stretch=normal:size=16.0.
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymBol.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeFiveSym' (STIXSizFiveSymReg.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymReg.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBol.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-BoldItalic.ttf) italic normal bold normal>) = 1.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-BoldOblique.ttf) oblique normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'cmsy10' (cmsy10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans Display' (DejaVuSansDisplay.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Oblique.ttf) oblique normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXGeneral' (STIXGeneralBolIta.ttf) italic normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymReg.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'cmex10' (cmex10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymReg.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 0.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymBol.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal bold normal>) = 0.33499999999999996
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'cmr10' (cmr10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'cmmi10' (cmmi10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXGeneral' (STIXGeneralItalic.ttf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymBol.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'cmss10' (cmss10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'cmtt10' (cmtt10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXGeneral' (STIXGeneralBol.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXGeneral' (STIXGeneral.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXNonUnicode' (STIXNonUniIta.ttf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Italic.ttf) italic normal 400 normal>) = 1.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Serif Display' (DejaVuSerifDisplay.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'cmb10' (cmb10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans' (DejaVuSans-BoldOblique.ttf) oblique normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXNonUnicode' (STIXNonUni.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymReg.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymBol.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBolIta.ttf) italic normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_SansSerif' (MathJax_SansSerif-Italic.otf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Bold.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Fraktur' (MathJax_Fraktur-Bold.otf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'FontAwesome' (FontAwesome.otf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_SansSerif' (MathJax_SansSerif-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Math' (MathJax_Math-Italic.otf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Italic.ttf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-BlackItalic.ttf) italic normal black normal>) = 11.525
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Size2' (MathJax_Size2-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Typewriter' (MathJax_Typewriter-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Math' (MathJax_Math-BoldItalic.otf) italic normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Light.ttf) normal normal light normal>) = 10.24
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_AMS' (MathJax_AMS-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'msbm10' (msbm10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'esint10' (esint10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Sans Mono' (VeraMoIt.ttf) oblique normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_WinIE6' (MathJax_WinIE6-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Caligraphic' (MathJax_Caligraphic-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Sans Mono' (VeraMoBd.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Vector-Bold' (MathJax_Vector-Bold.otf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-HeavyItalic.ttf) italic normal heavy normal>) = 11.43
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Sans' (VeraBI.ttf) oblique normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-LightItalic.ttf) italic normal light normal>) = 11.24
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Sans Mono' (VeraMoBI.ttf) oblique normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Serif' (VeraSeBd.ttf) normal normal bold normal>) = 1.0492857142857142
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Main' (MathJax_Main-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Size4' (MathJax_Size4-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Size3' (MathJax_Size3-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_WinChrome' (MathJax_WinChrome-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Sans' (VeraIt.ttf) oblique normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'FontAwesome' (fontawesome-webfont.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Size1' (MathJax_Size1-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Main' (MathJax_Main-Bold.otf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-BoldItalic.ttf) italic normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Vector' (MathJax_Vector-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_SansSerif' (MathJax_SansSerif-Bold.otf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Fraktur' (MathJax_Fraktur-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Black.ttf) normal normal black normal>) = 10.525
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-ThinItalic.ttf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'msam10' (msam10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Sans' (Vera.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'wasy10' (wasy10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Main' (MathJax_Main-Italic.otf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Medium.ttf) normal normal medium normal>) = 10.145
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Math' (MathJax_Math-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-MediumItalic.ttf) italic normal medium normal>) = 11.145
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Thin.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Caligraphic' (MathJax_Caligraphic-Bold.otf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Heavy.ttf) normal normal heavy normal>) = 10.43
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'stmary10' (stmary10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'rsfs10' (rsfs10.ttf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Script' (MathJax_Script-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Regular.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'eufm10' (eufm10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Hairline.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Sans' (VeraBd.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Sans Mono' (VeraMono.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Serif' (VeraSe.ttf) normal normal 400 normal>) = 0.7642857142857142
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-HairlineItalic.ttf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Semibold.ttf) normal normal semibold normal>) = 10.24
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-SemiboldItalic.ttf) italic normal semibold normal>) = 11.24
+DEBUG:matplotlib.font_manager:findfont: Matching serif:style=normal:variant=normal:weight=normal:stretch=normal:size=16.0 to DejaVu Serif ('/roaming/gchrupal/verdigris/platalea.vq/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf') with score of 0.050000.
+DEBUG:matplotlib.backends.backend_pdf:Assigning font /b'F1' = '/roaming/gchrupal/verdigris/platalea.vq/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf'
+DEBUG:matplotlib.backends.backend_pdf:Embedding font /roaming/gchrupal/verdigris/platalea.vq/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf.
+DEBUG:matplotlib.backends.backend_pdf:Writing TrueType font.
+DEBUG:matplotlib.backends.backend_pdf:Assigning font /b'F1' = '/roaming/gchrupal/verdigris/platalea.vq/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf'
+DEBUG:matplotlib.backends.backend_pdf:Embedding font /roaming/gchrupal/verdigris/platalea.vq/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf.
+DEBUG:matplotlib.backends.backend_pdf:Writing TrueType font.
+INFO:numexpr.utils:Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+DEBUG:matplotlib.font_manager:findfont: Matching serif:style=normal:variant=normal:weight=normal:stretch=normal:size=16.0.
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymBol.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeFiveSym' (STIXSizFiveSymReg.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymReg.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBol.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-BoldItalic.ttf) italic normal bold normal>) = 1.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-BoldOblique.ttf) oblique normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'cmsy10' (cmsy10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans Display' (DejaVuSansDisplay.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Oblique.ttf) oblique normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXGeneral' (STIXGeneralBolIta.ttf) italic normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymReg.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'cmex10' (cmex10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymReg.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 0.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymBol.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal bold normal>) = 0.33499999999999996
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'cmr10' (cmr10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'cmmi10' (cmmi10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXGeneral' (STIXGeneralItalic.ttf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymBol.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'cmss10' (cmss10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'cmtt10' (cmtt10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXGeneral' (STIXGeneralBol.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXGeneral' (STIXGeneral.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXNonUnicode' (STIXNonUniIta.ttf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Italic.ttf) italic normal 400 normal>) = 1.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Serif Display' (DejaVuSerifDisplay.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'cmb10' (cmb10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans' (DejaVuSans-BoldOblique.ttf) oblique normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXNonUnicode' (STIXNonUni.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymReg.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymBol.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBolIta.ttf) italic normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_SansSerif' (MathJax_SansSerif-Italic.otf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Bold.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Fraktur' (MathJax_Fraktur-Bold.otf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'FontAwesome' (FontAwesome.otf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_SansSerif' (MathJax_SansSerif-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Math' (MathJax_Math-Italic.otf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Italic.ttf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-BlackItalic.ttf) italic normal black normal>) = 11.525
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Size2' (MathJax_Size2-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Typewriter' (MathJax_Typewriter-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Math' (MathJax_Math-BoldItalic.otf) italic normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Light.ttf) normal normal light normal>) = 10.24
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_AMS' (MathJax_AMS-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'msbm10' (msbm10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'esint10' (esint10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Sans Mono' (VeraMoIt.ttf) oblique normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_WinIE6' (MathJax_WinIE6-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Caligraphic' (MathJax_Caligraphic-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Sans Mono' (VeraMoBd.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Vector-Bold' (MathJax_Vector-Bold.otf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-HeavyItalic.ttf) italic normal heavy normal>) = 11.43
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Sans' (VeraBI.ttf) oblique normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-LightItalic.ttf) italic normal light normal>) = 11.24
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Sans Mono' (VeraMoBI.ttf) oblique normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Serif' (VeraSeBd.ttf) normal normal bold normal>) = 1.0492857142857142
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Main' (MathJax_Main-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Size4' (MathJax_Size4-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Size3' (MathJax_Size3-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_WinChrome' (MathJax_WinChrome-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Sans' (VeraIt.ttf) oblique normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'FontAwesome' (fontawesome-webfont.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Size1' (MathJax_Size1-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Main' (MathJax_Main-Bold.otf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-BoldItalic.ttf) italic normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Vector' (MathJax_Vector-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_SansSerif' (MathJax_SansSerif-Bold.otf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Fraktur' (MathJax_Fraktur-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Black.ttf) normal normal black normal>) = 10.525
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-ThinItalic.ttf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'msam10' (msam10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Sans' (Vera.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'wasy10' (wasy10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Main' (MathJax_Main-Italic.otf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Medium.ttf) normal normal medium normal>) = 10.145
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Math' (MathJax_Math-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-MediumItalic.ttf) italic normal medium normal>) = 11.145
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Thin.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Caligraphic' (MathJax_Caligraphic-Bold.otf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Heavy.ttf) normal normal heavy normal>) = 10.43
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'stmary10' (stmary10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'rsfs10' (rsfs10.ttf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'MathJax_Script' (MathJax_Script-Regular.otf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Regular.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'eufm10' (eufm10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Hairline.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Sans' (VeraBd.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Sans Mono' (VeraMono.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Bitstream Vera Serif' (VeraSe.ttf) normal normal 400 normal>) = 0.7642857142857142
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-HairlineItalic.ttf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-Semibold.ttf) normal normal semibold normal>) = 10.24
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'Lato' (Lato-SemiboldItalic.ttf) italic normal semibold normal>) = 11.24
+DEBUG:matplotlib.font_manager:findfont: Matching serif:style=normal:variant=normal:weight=normal:stretch=normal:size=16.0 to DejaVu Serif ('/roaming/gchrupal/verdigris/platalea.vq/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf') with score of 0.050000.
+DEBUG:matplotlib.backends.backend_pdf:Assigning font /b'F1' = '/roaming/gchrupal/verdigris/platalea.vq/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf'
+DEBUG:matplotlib.backends.backend_pdf:Embedding font /roaming/gchrupal/verdigris/platalea.vq/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf.
+DEBUG:matplotlib.backends.backend_pdf:Writing TrueType font.
+DEBUG:matplotlib.backends.backend_pdf:Assigning font /b'F1' = '/roaming/gchrupal/verdigris/platalea.vq/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf'
+DEBUG:matplotlib.backends.backend_pdf:Embedding font /roaming/gchrupal/verdigris/platalea.vq/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf.
+DEBUG:matplotlib.backends.backend_pdf:Writing TrueType font.
