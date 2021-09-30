@@ -7,7 +7,7 @@ from platalea.experiments.config import args
 import os
 from pathlib import Path
 from torch.multiprocessing import Process
-import time
+
 
 def run(size=32, level=1, runid=0, device=0):
     torch.cuda.set_device(device)
@@ -29,33 +29,37 @@ def run(size=32, level=1, runid=0, device=0):
     bidi = True
     if size is not None:
         config = dict(ImageEncoder=dict(linear=dict(in_size=2048, out_size=2*1024), norm=True), margin_size=0.2)
-        assert level in [1,2,3]
+        assert level in [1, 2, 3]
         levels = 4
-        config['SpeechEncoder']=dict(SpeechEncoderBottom=dict(conv=dict(in_channels=39, out_channels=64, kernel_size=6, stride=2, padding=0, bias=False),
-                                                          rnn= dict(input_size=64, hidden_size=1024, num_layers=level,
-                                                                    bidirectional=bidi, dropout=0)),
-                                 VQEmbedding=dict(num_codebook_embeddings=size, embedding_dim=2 * 1024 if bidi else 1024, jitter=0.12),
-                                 SpeechEncoderTop=dict(rnn= dict(input_size=2 * 1024 if bidi else 1024, hidden_size=1024, num_layers=levels-level,
-                                                                 bidirectional=bidi, dropout=0),
-                                                       att= dict(in_size=2048, hidden_size=128)))
+        config['SpeechEncoder'] = dict(
+            SpeechEncoderBottom=dict(
+                conv=dict(in_channels=39, out_channels=64, kernel_size=6, stride=2, padding=0, bias=False),
+                rnn=dict(input_size=64, hidden_size=1024, num_layers=level, bidirectional=bidi, dropout=0)),
+            VQEmbedding=dict(num_codebook_embeddings=size, embedding_dim=2 * 1024 if bidi else 1024, jitter=0.12),
+            SpeechEncoderTop=dict(
+                rnn=dict(input_size=2 * 1024 if bidi else 1024, hidden_size=1024, num_layers=levels-level,
+                         bidirectional=bidi, dropout=0),
+                att=dict(in_size=2048, hidden_size=128)))
 
         logging.info('Building model')
         net = M.SpeechImage(config)
     else:
-      config = dict(SpeechEncoder=dict(conv=dict(in_channels=39, out_channels=64, kernel_size=6, stride=2, padding=0, bias=False),
-                                       rnn= dict(input_size=64, hidden_size=1024, num_layers=4, bidirectional=True, dropout=0),
-                                       att= dict(in_size=2048, hidden_size=128)),
-                    ImageEncoder=dict(linear=dict(in_size=2048, out_size=2*1024), norm=True),
-                    margin_size=0.2)
+        config = dict(
+            SpeechEncoder=dict(
+                conv=dict(in_channels=39, out_channels=64, kernel_size=6, stride=2, padding=0, bias=False),
+                rnn=dict(input_size=64, hidden_size=1024, num_layers=4, bidirectional=True, dropout=0),
+                att=dict(in_size=2048, hidden_size=128)),
+            ImageEncoder=dict(linear=dict(in_size=2048, out_size=2*1024), norm=True), margin_size=0.2)
 
-      logging.info('Building model')
-      net = B.SpeechImage(config)
+        logging.info('Building model')
+        net = B.SpeechImage(config)
 
     run_config = dict(max_lr=2 * 1e-4, epochs=32)
 
     logging.info('Training')
     M.experiment(net, data, run_config)
     os.chdir(cwd)
+
 
 def basic():
     procs = []
@@ -68,8 +72,20 @@ def basic():
     for p in procs:
         p.join()
 
+
+def debug():
+    run()
+
+
 def main():
-    for size in [2**n for n in range(5, 11) ]:
+    for size in [2**n for n in range(5, 11)]:
+        for level in [1, 2, 3]:
+            for runid in [0, 1, 2]:
+                run(size, level, runid)
+
+
+def main_parallel():
+    for size in [2**n for n in range(5, 11)]:
         for level in [1, 2, 3]:
             procs = []
             for runid in [0, 1, 2]:
@@ -80,7 +96,7 @@ def main():
                 p.join()
 
 
-
 if __name__ == "__main__":
     torch.multiprocessing.set_start_method('spawn')
+    main()
     basic()

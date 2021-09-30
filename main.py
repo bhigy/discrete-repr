@@ -26,54 +26,54 @@ def main():
     logging.getLogger().setLevel(logging.INFO)
     path_outdir = Path('data/out')
 
-    # ana = Analyze(experiment_dir="experiments")
+    ana = Analyze(experiment_dir="experiments")
 
     # Recall
-    # data = ana.recall()
-    # data.to_csv(Path("data/out") / "recall.csv", header=True, index=False)
+    data = ana.recall()
+    data.to_csv(Path("data/out") / "recall.csv", header=True, index=False)
 
     # Prepare
-    # ana.prepare()
+    ana.prepare()
     # ana.prepare_word()
-    # ana.prepare_baseline()
+    ana.prepare_baseline()
 
     # RSA
-    # data = ana.rsa()
-    # data.to_csv(path_outdir / "rsa.csv", header=True, index=False)
+    data = ana.rsa()
+    data.to_csv(path_outdir / "rsa.csv", header=True, index=False)
     # data = ana.meanpool_rsa()
     # data.to_csv(path_outdir / "meanpool_rsa.csv", header=True, index=False)
     # ABX
-    # data = ana.abx()
-    # data.to_csv(path_outdir / "abx.csv", header=True, index=False)
+    data = ana.abx()
+    data.to_csv(path_outdir / "abx.csv", header=True, index=False)
     # Other metrics
-    # for shortname in ['diag', 'vmeasure', 'meandur']:
-    #     data = ana.apply_metric(Metric.get_metric(shortname))
-    #     data.to_csv(path_outdir / f'{shortname}.csv', header=True, index=False)
+    #for shortname in ['diag', 'vmeasure', 'meandur']:
+    for shortname in ['diag', 'vmeasure']:
+        data = ana.apply_metric(Metric.get_metric(shortname))
+        data.to_csv(path_outdir / f'{shortname}.csv', header=True, index=False)
 
     # plot_vs()
-    # vel()
     # plot_meanpool()
     # plot_size_level()
 
     # Van Niekerk
-    # ana_vn = Analyze_van_Niekerk(
-    #     experiment_dir="experiments",
-    #     srcroot='/home/bjrhigy/dev/bshall-zrsc/submission/flickr8k')
+    ana_vn = Analyze_van_Niekerk(
+        experiment_dir="experiments",
+        srcroot='../bshall-zerospeech/submission/flickr8k')
 
     # Prepare
-    # ana_vn.prepare()
+    ana_vn.prepare()
     # ana_vn.prepare_word()
 
     # RSA
-    # data = ana_vn.rsa()
-    # data.to_csv(path_outdir / "rsa_vn.csv", header=True, index=False)
+    data = ana_vn.rsa()
+    data.to_csv(path_outdir / "rsa_vn.csv", header=True, index=False)
     # ABX
-    # data = ana_vn.abx()
-    # data.to_csv(path_outdir / "abx_vn.csv", header=True, index=False)
+    data = ana_vn.abx()
+    data.to_csv(path_outdir / "abx_vn.csv", header=True, index=False)
     # Other metrics
-    # for shortname in ['diag', 'vmeasure']:
-    #     data = ana_vn.apply_metric(Metric.get_metric(shortname))
-    #     data.to_csv(path_outdir / f'{shortname}_vn.csv', header=True, index=False)
+    for shortname in ['diag', 'vmeasure']:
+        data = ana_vn.apply_metric(Metric.get_metric(shortname))
+        data.to_csv(path_outdir / f'{shortname}_vn.csv', header=True, index=False)
 
     # plot_vs_vn()
     # plot_size_level_vn()
@@ -129,7 +129,7 @@ class Analyze:
             for level in self.levels:
                 for run in range(self.number_runs):
                     directory = self._path(size, level, run)
-                    torch.cuda.set_device(run)
+                    #torch.cuda.set_device(run)
                     prepare_on(directory, module=VQ)
 
     def prepare_word(self):
@@ -150,7 +150,7 @@ class Analyze:
         import platalea.basic as B
         for run in [0, 1, 2]:
             directory = self._path(None, None, run)
-            torch.cuda.set_device(run)
+            #torch.cuda.set_device(run)
             prepare_on(directory, module=B)
 
     def _runner(self, worker, sizes=None, levels=None, runs=None):
@@ -210,10 +210,9 @@ class Analyze:
             for level in self.levels:
                 for run in range(self.number_runs):
                     modeldir = self._path(size, level, run)
-                    result = [json.loads(line) for line in open(modeldir / "result.json")]
-                    best = sorted(result, key=lambda x: x['recall']['10'], reverse=True)[0]['epoch']
-                    oldnet = torch.load("{}/net.{}.pt".format(modeldir, best), map_location='cuda:0')
-                    logging.info(f"Loading model from {modeldir} at epoch {best}")
+                    best_net = get_path_best_net(modeldir)
+                    oldnet = torch.load(best_net, map_location='cuda:0')
+                    logging.info(f"Loading model from {best_net}")
                     net = M.SpeechImage(oldnet.config)
                     net.load_state_dict(oldnet.state_dict())
                     net.cuda()
@@ -335,11 +334,19 @@ def load_results(d, fname='result.json'):
     return [json.loads(line) for line in open(Path(d) / fname)]
 
 
+def get_path_best_net(modeldir):
+    if (Path(modeldir) / 'net.best.pt').exists():
+        return f'{modeldir}/net.best.pt'
+    else:
+        result = [json.loads(line) for line in open(Path(modeldir) / "result.json")]
+        best = sorted(result, key=lambda x: x['recall']['10'], reverse=True)[0]['epoch']
+        return f'{modeldir}/net.{best}.pt'
+
+
 def load_best_net(modeldir, module):
-    result = [json.loads(line) for line in open(Path(modeldir) / "result.json")]
-    best = sorted(result, key=lambda x: x['recall']['10'], reverse=True)[0]['epoch']
-    oldnet = torch.load(f"{modeldir}/net.{best}.pt")
-    logging.info(f"Loading model from {modeldir} at epoch {best}")
+    best_net = get_path_best_net(modeldir)
+    oldnet = torch.load(best_net, map_location='cuda:0')
+    logging.info(f"Loading model from {best_net}")
     net = module.SpeechImage(oldnet.config)
     net.load_state_dict(oldnet.state_dict())
     return net.cuda()
@@ -374,7 +381,7 @@ def prepare_van_niekerk_on(srcdir, srcdir_trigrams, outdir):
 
 def _rsa_worker(args):
     size, level, run, directory, cached_datadir, splitseed = args
-    torch.cuda.set_device(run)
+    #torch.cuda.set_device(run)
     logging.info("Process on run {}".format(run))
     results = []
     results += L.ed_rsa(
@@ -774,40 +781,40 @@ def plot_size_level():
         pn.theme(text=pn.element_text(size=16, family='serif'))
     pn.ggsave(g, "fig/recall_size.pdf")
     # mean duration vs size
-    meandur = pd.read_csv("data/out/meandur.csv")
-    base_p = meandur.query('reference=="phoneme"')['mean_duration_labels'].iloc[0]
-    base_w = meandur.query('reference=="word"')['mean_duration_labels'].iloc[0]
-    base = pd.DataFrame.from_records([
-        dict(baseline='Phoneme', mean_duration=base_p),
-        dict(baseline='Word', mean_duration=base_w)])
-    meandur = meandur.query('reference=="phoneme" & mode=="trained"')
-    g = pn.ggplot(meandur, pn.aes(x='size', color='factor(level)',
-                                  y='mean_duration')) + \
-        pn. geom_point() + \
-        pn.scale_x_continuous(trans="log2", breaks=[32, 64, 128, 256, 512, 1024]) + \
-        pn.scale_color_discrete(name="level") + \
-        pn.geom_point(alpha=0.7, size=3) + \
-        pn.geom_hline(base, pn.aes(yintercept='mean_duration',
-                                   linetype='baseline')) + \
-        pn.geom_smooth() + \
-        pn.labs(x="Codebook size",
-                y=get_axislabel('mean_duration'),
-                title=get_title('mean_duration'),
-                linetype="Baseline") + \
-        pn.theme(text=pn.element_text(size=16, family='serif')) +\
-        pn.guides(color=pn.guide_legend(title='VQ at level'))
-    pn.ggsave(g, 'fig/mean_duration_size.pdf')
+    # meandur = pd.read_csv("data/out/meandur.csv")
+    # base_p = meandur.query('reference=="phoneme"')['mean_duration_labels'].iloc[0]
+    # base_w = meandur.query('reference=="word"')['mean_duration_labels'].iloc[0]
+    # base = pd.DataFrame.from_records([
+    #     dict(baseline='Phoneme', mean_duration=base_p),
+    #     dict(baseline='Word', mean_duration=base_w)])
+    # meandur = meandur.query('reference=="phoneme" & mode=="trained"')
+    # g = pn.ggplot(meandur, pn.aes(x='size', color='factor(level)',
+    #                               y='mean_duration')) + \
+    #     pn. geom_point() + \
+    #     pn.scale_x_continuous(trans="log2", breaks=[32, 64, 128, 256, 512, 1024]) + \
+    #     pn.scale_color_discrete(name="level") + \
+    #     pn.geom_point(alpha=0.7, size=3) + \
+    #     pn.geom_hline(base, pn.aes(yintercept='mean_duration',
+    #                                linetype='baseline')) + \
+    #     pn.geom_smooth() + \
+    #     pn.labs(x="Codebook size",
+    #             y=get_axislabel('mean_duration'),
+    #             title=get_title('mean_duration'),
+    #             linetype="Baseline") + \
+    #     pn.theme(text=pn.element_text(size=16, family='serif')) +\
+    #     pn.guides(color=pn.guide_legend(title='VQ at level'))
+    # pn.ggsave(g, 'fig/mean_duration_size.pdf')
     # other metrics
     data_d = load_data()
     for metric in ['diag', 'rsa', 'abx', 'vmeasure']:
         g = plot_metric_vs_size(data_d, metric)
         pn.ggsave(g, f"fig/{metric}_size.pdf")
     # word-level
-    metrics = ['rsa', 'vmeasure']
-    data_d = load_data(ref='word', metrics=metrics)
-    for metric in metrics:
-        g = plot_metric_vs_size(data_d, metric)
-        pn.ggsave(g, f"fig/{metric}_w_size.pdf")
+    # metrics = ['rsa', 'vmeasure']
+    # data_d = load_data(ref='word', metrics=metrics)
+    # for metric in metrics:
+    #     g = plot_metric_vs_size(data_d, metric)
+    #     pn.ggsave(g, f"fig/{metric}_w_size.pdf")
 
 
 def plot_vs_vn():
@@ -1079,5 +1086,5 @@ def adjust_for_random(data, columns):
 
 
 if __name__ == '__main__':
-    #torch.multiprocessing.set_start_method("spawn")
+    torch.multiprocessing.set_start_method("spawn")
     main()

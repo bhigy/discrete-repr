@@ -1,6 +1,7 @@
 import pickle
 import logging
 import platalea.dataset as dataset
+from platalea.experiments.config import args
 import json
 import os
 import os.path
@@ -21,6 +22,10 @@ import platalea.basicvq as M
 import pydub
 import random
 
+# Parsing arguments
+args.enable_help()
+args.parse()
+
 
 def save_data(nets, directory, batch_size=32,
               alignment_fpath='data/datasets/flickr8k/fa.json',
@@ -39,8 +44,8 @@ def get_audio_and_alignments(alignment_fpath, use_precomputed_mfcc=True):
     data = load_alignment(alignment_fpath)
     if use_precomputed_mfcc:
         logging.info("Loading audio features")
-        val = dataset.Flickr8KData(root='data/datasets/flickr8k/', feature_fname='mfcc_features.pt',
-                                   meta_fname='dataset.json', split='val')
+        val = dataset.Flickr8KData(root=args.flickr8k_root, feature_fname=args.audio_features_fn,
+                                   meta_fname=args.flickr8k_meta, split='val')
         alignments = [data[sent['audio_id']] for sent in val]
         # Only consider cases where alignement does not fail
         alignments = [item for item in alignments if good_alignment(item)]
@@ -400,9 +405,9 @@ def prepare_abx(k=1000, overlap=True):
     from prepare_flickr8k import load_alignment, good_alignment
     align = {key: value for key, value in load_alignment("data/datasets/flickr8k/fa.json").items() if good_alignment(value)}
     us = random.sample(list(align.values()), k)
-    wav = Path("data/datasets/flickr8k/flickr_audio/wavs")
+    wav = Path(args.flickr8k_root) / args.flickr8k_audio_subdir
     out = Path("data/flickr8k_abx_wav")
-    speakers = dict(line.split() for line in open("data/datasets/flickr8k/flickr_audio/wav2spk.txt"))
+    speakers = dict(line.split() for line in open(f"{args.flickr8k_root}/flickr_audio/wav2spk.txt"))
     out.mkdir(parents=True, exist_ok=True)
     with open("data/flickr8k_abx.item", "w") as itemout:
       with open("data/flickr8k_trigrams_fa.json", "w") as tri_fa:
@@ -453,7 +458,7 @@ def prepare_abx_rep(directory, k=1000, overlap=True):
     us = random.sample(list(align.values()), k)
     out_trained = Path(directory) / "encoded/trained/flickr8k_val_rep/"
     out_rand = Path(directory) / "encoded/random/flickr8k_val_rep/"
-    speakers = dict(line.split() for line in open("data/datasets/flickr8k/flickr_audio/wav2spk.txt"))
+    speakers = dict(line.split() for line in open(f"{args.flickr8k_root}/flickr_audio/wav2spk.txt"))
     factors = json.load(open("{}/downsampling_factors.json".format(directory), "rb"))
     layer = 'codebook'
     global_inp = pickle.load(open("{}/global_input.pkl".format(directory), "rb"))
