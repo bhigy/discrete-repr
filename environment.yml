@@ -1,4 +1,4 @@
-name: vq-analyze-code
+name: discrete-repr
 channels:
   - pytorch
   - defaults
@@ -88,4 +88,4 @@ dependencies:
     - git+https://github.com/bootphon/zerospeech2020.git@master
     - git+https://github.com/gchrupala/ursa.git@master
     - git+https://github.com/gchrupala/lyz.git@master
-    - git+https://github.com/spokenlanguage/platalea.git@603b2556985f58245d59db04283f1e16e403f5a9
+    - git+https://github.com/spokenlanguage/platalea.git@9841d85898ed805fd1fdf6945e0e419c2dfd850b
