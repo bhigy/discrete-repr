@@ -18,12 +18,15 @@ conda env create environment.yml
 conda activate discrete-repr
 ```
 
+Finally, download the [metadata](https://zenodo.org/record/5547705/files/metadata.tar.gz?download=1) and extract the
+content of the archive in the current folder.
+
 ## Training the models
 
 Instructions to train the models can be found in [docs/VISUALLY_SUPERVISED.md](docs/VISUALLY_SUPERVISED.md) for visually-supervised models and
 in [docs/SELF_SUPERVISED.md](docs/SELF_SUPERVISED.md) for self-supervised models.
 
-Alternatively, pretrained models can be obtained from [here](). For the visually-supervised models, simply extract the content of the archive named `experiments.tar.gz` under the root of this repository. For the self-supervised models, follow the instructions for [installation](docs/SELF_SUPERVISED.md#Installation) and extract the archive named `checkpoints.tar.gz` under the root
+Alternatively, pretrained models can be obtained from [here](https://zenodo.org/record/5547705). For the visually-supervised models, simply extract the content of the archive named `experiments.tar.gz` under the root of this repository. For the self-supervised models, follow the instructions for [installation](docs/SELF_SUPERVISED.md#Installation) and extract the archive named `checkpoints.tar.gz` under the root
 of the folder `bshall-zerospeech`.
 
 ## Evaluation
