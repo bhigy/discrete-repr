@@ -45,7 +45,7 @@ dependencies:
   - numpy-base=1.18.5=py38hde5b4d6_0
   - olefile=0.46=py_0
   - openssl=1.1.1g=h7b6447c_0
-  - pandas=1.0.5=py38h0573a6f_0
+  - pandas=1.1.0=py38he6710b0_0
   - parso=0.7.0=py_0
   - pexpect=4.8.0=py38_0
   - pickleshare=0.7.5=py38_1000
