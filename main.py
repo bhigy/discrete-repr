@@ -34,26 +34,20 @@ def main():
 
     # Prepare
     ana.prepare()
-    # ana.prepare_word()
     ana.prepare_baseline()
 
     # RSA
     data = ana.rsa()
     data.to_csv(path_outdir / "rsa.csv", header=True, index=False)
-    # data = ana.meanpool_rsa()
-    # data.to_csv(path_outdir / "meanpool_rsa.csv", header=True, index=False)
     # ABX
     data = ana.abx()
     data.to_csv(path_outdir / "abx.csv", header=True, index=False)
     # Other metrics
-    #for shortname in ['diag', 'vmeasure', 'meandur']:
     for shortname in ['diag', 'vmeasure']:
         data = ana.apply_metric(Metric.get_metric(shortname))
         data.to_csv(path_outdir / f'{shortname}.csv', header=True, index=False)
 
-    # plot_vs()
-    # plot_meanpool()
-    # plot_size_level()
+    plot_size_level()
 
     # Van Niekerk
     ana_vn = Analyze_van_Niekerk(
@@ -62,7 +56,6 @@ def main():
 
     # Prepare
     ana_vn.prepare()
-    # ana_vn.prepare_word()
 
     # RSA
     data = ana_vn.rsa()
@@ -75,15 +68,6 @@ def main():
         data = ana_vn.apply_metric(Metric.get_metric(shortname))
         data.to_csv(path_outdir / f'{shortname}_vn.csv', header=True, index=False)
 
-    # plot_vs_vn()
-    # plot_size_level_vn()
-
-    # plot mean duration for both models in 1 fig
-    # plot_meandur()
-    # run_rsa_dtw(test_size=1/2)
-    # plots for both models in 1 fig
-    # plot_meandur()
-    # plot_word_correspondence()
     plot_size_level_joined()
 
 
@@ -129,7 +113,6 @@ class Analyze:
             for level in self.levels:
                 for run in range(self.number_runs):
                     directory = self._path(size, level, run)
-                    #torch.cuda.set_device(run)
                     prepare_on(directory, module=VQ)
 
     def prepare_word(self):
@@ -150,7 +133,6 @@ class Analyze:
         import platalea.basic as B
         for run in [0, 1, 2]:
             directory = self._path(None, None, run)
-            #torch.cuda.set_device(run)
             prepare_on(directory, module=B)
 
     def _runner(self, worker, sizes=None, levels=None, runs=None):
@@ -381,7 +363,6 @@ def prepare_van_niekerk_on(srcdir, srcdir_trigrams, outdir):
 
 def _rsa_worker(args):
     size, level, run, directory, cached_datadir, splitseed = args
-    #torch.cuda.set_device(run)
     logging.info("Process on run {}".format(run))
     results = []
     results += L.ed_rsa(
@@ -730,7 +711,7 @@ def plot_size_level_joined():
     colors = {0: 'grey', 1: '#db5f57', 2: '#57db5f', 3: '#736cdd'}
     labels = ["Self-supervised", "VS - VQ at level 1", "VS - VQ at level 2",
               "VS - VQ at level 3"]
-    shapes = {0: 'o', 1: '^', 2:'s', 3: 'D'}
+    shapes = {0: 'o', 1: '^', 2: 's', 3: 'D'}
     fill_values = {'trained': 'black', 'random': 'white'}
     for metric in ['diag', 'rsa', 'abx', 'vmeasure']:
         g = pn.ggplot(data_d, pn.aes(x='size',
@@ -742,7 +723,7 @@ def plot_size_level_joined():
             pn.scale_color_manual(colors, labels=labels) + \
             pn.scale_shape_manual(values=shapes, labels=labels) + \
             pn.geom_smooth() + \
-            pn.geom_point(inherit_aes=True, mapping=pn.aes(fill='mode'),size=3, alpha=.7) + \
+            pn.geom_point(inherit_aes=True, mapping=pn.aes(fill='mode'), size=3, alpha=.7) + \
             pn.scale_fill_manual(values=fill_values) + \
             pn.labs(x="Codebook size",
                     y=get_axislabel(metric),
@@ -751,7 +732,7 @@ def plot_size_level_joined():
                     fill='Mode',
                     linetype="Mode") + \
             pn.theme(text=pn.element_text(size=16, family='serif')) + \
-            pn.theme(legend_key_width = 35) + \
+            pn.theme(legend_key_width=35) + \
             pn.guides(color=pn.guide_legend(title='Model'))
         pn.ggsave(g, f"fig/joined_{metric}_size.pdf")
 
@@ -761,7 +742,7 @@ def plot_size_level():
     recall = pd.read_csv("data/out/recall.csv")
     base = pd.DataFrame.from_records([
         dict(baseline='No VQ layer', recall10=0.416)])
-    shapes = {1: '^', 2:'s', 3: 'D'}
+    shapes = {1: '^', 2: 's', 3: 'D'}
     g = pn.ggplot(recall, pn.aes(x='size', color='factor(level)', shape='factor(level)',
                                  y='recall10')) + \
         pn. geom_point() + \
@@ -780,41 +761,6 @@ def plot_size_level():
         pn.guides(shape=pn.guide_legend(title='VQ layer at level')) + \
         pn.theme(text=pn.element_text(size=16, family='serif'))
     pn.ggsave(g, "fig/recall_size.pdf")
-    # mean duration vs size
-    # meandur = pd.read_csv("data/out/meandur.csv")
-    # base_p = meandur.query('reference=="phoneme"')['mean_duration_labels'].iloc[0]
-    # base_w = meandur.query('reference=="word"')['mean_duration_labels'].iloc[0]
-    # base = pd.DataFrame.from_records([
-    #     dict(baseline='Phoneme', mean_duration=base_p),
-    #     dict(baseline='Word', mean_duration=base_w)])
-    # meandur = meandur.query('reference=="phoneme" & mode=="trained"')
-    # g = pn.ggplot(meandur, pn.aes(x='size', color='factor(level)',
-    #                               y='mean_duration')) + \
-    #     pn. geom_point() + \
-    #     pn.scale_x_continuous(trans="log2", breaks=[32, 64, 128, 256, 512, 1024]) + \
-    #     pn.scale_color_discrete(name="level") + \
-    #     pn.geom_point(alpha=0.7, size=3) + \
-    #     pn.geom_hline(base, pn.aes(yintercept='mean_duration',
-    #                                linetype='baseline')) + \
-    #     pn.geom_smooth() + \
-    #     pn.labs(x="Codebook size",
-    #             y=get_axislabel('mean_duration'),
-    #             title=get_title('mean_duration'),
-    #             linetype="Baseline") + \
-    #     pn.theme(text=pn.element_text(size=16, family='serif')) +\
-    #     pn.guides(color=pn.guide_legend(title='VQ at level'))
-    # pn.ggsave(g, 'fig/mean_duration_size.pdf')
-    # other metrics
-    data_d = load_data()
-    for metric in ['diag', 'rsa', 'abx', 'vmeasure']:
-        g = plot_metric_vs_size(data_d, metric)
-        pn.ggsave(g, f"fig/{metric}_size.pdf")
-    # word-level
-    # metrics = ['rsa', 'vmeasure']
-    # data_d = load_data(ref='word', metrics=metrics)
-    # for metric in metrics:
-    #     g = plot_metric_vs_size(data_d, metric)
-    #     pn.ggsave(g, f"fig/{metric}_w_size.pdf")
 
 
 def plot_vs_vn():
@@ -1065,7 +1011,6 @@ def massage_data(source='vg', ref='phoneme',
 
 def load_data(source='vg', ref='phoneme',
               metrics=['rsa', 'diag', 'abx', 'vmeasure']):
-    columns = metrics
     if source == 'vn':
         metrics = [f'{m}_vn' for m in metrics]
     data = merge_frames(metrics, ref)
