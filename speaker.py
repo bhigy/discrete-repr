@@ -241,8 +241,8 @@ layers = [1, 2, 3]
 runs = [0, 1, 2]
 
 ##############################################
-#analyze(versions, experiments_path, 'data/out/', layers, runs, model="vg")
-#analyze(versions, experiments_path, 'data/out/', [1], runs, model="vn")
+analyze(versions, experiments_path, 'data/out/', layers, runs, model="vg")
+analyze(versions, experiments_path, 'data/out/', [1], runs, model="vn")
 #plot_speaker("vg")
 #plot_speaker("vn")
 plot_both()
