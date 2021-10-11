@@ -28,45 +28,45 @@ def main():
 
     ana = Analyze(experiment_dir="experiments")
 
-    # Recall
-    data = ana.recall()
-    data.to_csv(Path("data/out") / "recall.csv", header=True, index=False)
+    ## Recall
+    #data = ana.recall()
+    #data.to_csv(Path("data/out") / "recall.csv", header=True, index=False)
 
-    # Prepare
-    ana.prepare()
-    ana.prepare_baseline()
+    ## Prepare
+    #ana.prepare()
+    #ana.prepare_baseline()
 
-    # RSA
-    data = ana.rsa()
-    data.to_csv(path_outdir / "rsa.csv", header=True, index=False)
-    # ABX
-    data = ana.abx()
-    data.to_csv(path_outdir / "abx.csv", header=True, index=False)
-    # Other metrics
-    for shortname in ['diag', 'vmeasure']:
-        data = ana.apply_metric(Metric.get_metric(shortname))
-        data.to_csv(path_outdir / f'{shortname}.csv', header=True, index=False)
+    ## RSA
+    #data = ana.rsa()
+    #data.to_csv(path_outdir / "rsa.csv", header=True, index=False)
+    ## ABX
+    #data = ana.abx()
+    #data.to_csv(path_outdir / "abx.csv", header=True, index=False)
+    ## Other metrics
+    #for shortname in ['diag', 'vmeasure']:
+    #    data = ana.apply_metric(Metric.get_metric(shortname))
+    #    data.to_csv(path_outdir / f'{shortname}.csv', header=True, index=False)
 
-    plot_size_level()
+    #plot_size_level()
 
-    # Van Niekerk
-    ana_vn = Analyze_van_Niekerk(
-        experiment_dir="experiments",
-        srcroot='../bshall-zerospeech/submission/flickr8k')
+    ## Van Niekerk
+    #ana_vn = Analyze_van_Niekerk(
+    #    experiment_dir="experiments",
+    #    srcroot='../bshall-zerospeech/submission/flickr8k')
 
-    # Prepare
-    ana_vn.prepare()
+    ## Prepare
+    #ana_vn.prepare()
 
-    # RSA
-    data = ana_vn.rsa()
-    data.to_csv(path_outdir / "rsa_vn.csv", header=True, index=False)
-    # ABX
-    data = ana_vn.abx()
-    data.to_csv(path_outdir / "abx_vn.csv", header=True, index=False)
-    # Other metrics
-    for shortname in ['diag', 'vmeasure']:
-        data = ana_vn.apply_metric(Metric.get_metric(shortname))
-        data.to_csv(path_outdir / f'{shortname}_vn.csv', header=True, index=False)
+    ## RSA
+    #data = ana_vn.rsa()
+    #data.to_csv(path_outdir / "rsa_vn.csv", header=True, index=False)
+    ## ABX
+    #data = ana_vn.abx()
+    #data.to_csv(path_outdir / "abx_vn.csv", header=True, index=False)
+    ## Other metrics
+    #for shortname in ['diag', 'vmeasure']:
+    #    data = ana_vn.apply_metric(Metric.get_metric(shortname))
+    #    data.to_csv(path_outdir / f'{shortname}_vn.csv', header=True, index=False)
 
     plot_size_level_joined()
 
@@ -702,17 +702,18 @@ def plot_phoneme_vs_word(data, colname):
 def plot_size_level_joined():
     # phoneme metrics
     data_vg = load_data()
-    data_vn = load_data(source="vn")
-    data_vg["model"] = "Visually grounded"
-    data_vn["model"] = "Self-supervised"
-    data_vn["level"] = 0
-    data_d = pd.concat([data_vg, data_vn])
+    #data_vn = load_data(source="vn")
+    #data_vg["model"] = "Visually grounded"
+    #data_vn["model"] = "Self-supervised"
+    #data_vn["level"] = 0
+    #data_d = pd.concat([data_vg, data_vn])
+    data_d = data_vg
+    data_d["mode"] = data_d["mode"].cat.rename_categories(["trained", "untrained"])
 
-    colors = {0: 'grey', 1: '#db5f57', 2: '#57db5f', 3: '#736cdd'}
-    labels = ["Self-supervised", "VS - VQ at level 1", "VS - VQ at level 2",
-              "VS - VQ at level 3"]
-    shapes = {0: 'o', 1: '^', 2: 's', 3: 'D'}
-    fill_values = {'trained': 'black', 'random': 'white'}
+    colors = {1: '#db5f57', 2: '#57db5f', 3: '#736cdd'}
+    labels = ["level 1", "level 2", "level 3"]
+    shapes = {1: '^', 2: 's', 3: 'D'}
+    fill_values = {'trained': 'black', 'untrained': 'white'}
     for metric in ['diag', 'rsa', 'abx', 'vmeasure']:
         g = pn.ggplot(data_d, pn.aes(x='size',
                                      color='factor(level)',
@@ -728,12 +729,12 @@ def plot_size_level_joined():
             pn.labs(x="Codebook size",
                     y=get_axislabel(metric),
                     title=get_title(metric),
-                    shape="Model",
+                    shape="Placement of the VQ layer",
                     fill='Mode',
                     linetype="Mode") + \
             pn.theme(text=pn.element_text(size=16, family='serif')) + \
             pn.theme(legend_key_width=35) + \
-            pn.guides(color=pn.guide_legend(title='Model'))
+            pn.guides(color=pn.guide_legend(title='Placement of the VQ layer'))
         pn.ggsave(g, f"fig/joined_{metric}_size.pdf")
 
 
