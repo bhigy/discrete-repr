@@ -1,6 +1,6 @@
 # Discrete representations in neural models of spoken language
 
-This code allows to reproduce the results presented in the paper "Discrete representations in neural models of spoken language" (https://arxiv.org/abs/2105.05582).
+This code allows to reproduce the results presented in the paper "Discrete representations in neural models of spoken language" (https://aclanthology.org/2021.blackboxnlp-1.11).
 
 ## Installation
 
